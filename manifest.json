@@ -1,38 +1,75 @@
 {
+
     "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+
     "name": "Montre-box",
-    "short_name": "Montre-Box",
+
+    "short_name": "Montre-box",
+
     "start_url": "index.html",
+
     "display": "standalone",
+
     "background_color": "transparent",
-    "description": "Montre.",
+
+    "description": "Montre",
+
     "icons": [{
+
       "src": "https://previews.123rf.com/images/valeo5/valeo51609/valeo5160900695/63702744-deuxi%C3%A8me-ic%C3%B4ne-minuterie-isol%C3%A9-sur-fond-blanc-montre-logo.jpg?fj=1",
+
       "sizes": "48x48",
+
       "type": "image/jpg"
+
     }, {
-      "src": "https://storage-hidabroot-org.cdn.ampproject.org/ii/w820/s/storage.hidabroot.org/articles_new/107664_tumb_360Xauto.jpg",
+
+      "src": "https://previews.123rf.com/images/valeo5/valeo51609/valeo5160900695/63702744-deuxi%C3%A8me-ic%C3%B4ne-minuterie-isol%C3%A9-sur-fond-blanc-montre-logo.jpg?fj=1",
+
       "sizes": "72x72",
+
       "type": "image/jpg"
+
     }, {
-      "src": "https://storage-hidabroot-org.cdn.ampproject.org/ii/w820/s/storage.hidabroot.org/articles_new/107664_tumb_360Xauto.jpg",
+
+      "src": "https://previews.123rf.com/images/valeo5/valeo51609/valeo5160900695/63702744-deuxi%C3%A8me-ic%C3%B4ne-minuterie-isol%C3%A9-sur-fond-blanc-montre-logo.jpg?fj=1",
+
       "sizes": "96x96",
+
       "type": "image/jpg"
+
     }, {
-      "src": "https://storage-hidabroot-org.cdn.ampproject.org/ii/w820/s/storage.hidabroot.org/articles_new/107664_tumb_360Xauto.jpg",
+
+      "src": "https://previews.123rf.com/images/valeo5/valeo51609/valeo5160900695/63702744-deuxi%C3%A8me-ic%C3%B4ne-minuterie-isol%C3%A9-sur-fond-blanc-montre-logo.jpg?fj=1",
+
       "sizes": "144x144",
+
       "type": "image/jpg"
+
     }, {
-      "src": "https://storage-hidabroot-org.cdn.ampproject.org/ii/w820/s/storage.hidabroot.org/articles_new/107664_tumb_360Xauto.jpg",
+
+      "src": "https://previews.123rf.com/images/valeo5/valeo51609/valeo5160900695/63702744-deuxi%C3%A8me-ic%C3%B4ne-minuterie-isol%C3%A9-sur-fond-blanc-montre-logo.jpg?fj=1",
+
       "sizes": "168x168",
+
       "type": "image/jpg"
+
     }, {
-      "src": "https://storage-hidabroot-org.cdn.ampproject.org/ii/w820/s/storage.hidabroot.org/articles_new/107664_tumb_360Xauto.jpg",
+
+      "src": "https://previews.123rf.com/images/valeo5/valeo51609/valeo5160900695/63702744-deuxi%C3%A8me-ic%C3%B4ne-minuterie-isol%C3%A9-sur-fond-blanc-montre-logo.jpg?fj=1",
+
       "sizes": "192x192",
+
       "type": "image/jpg"
+
     }],
+
     "related_applications": [{
+
       "platform": "play",
+
       "url": "https://play.google.com/store/apps/details?id=cheeaun.hackerweb"
+
     }]
+
   }
