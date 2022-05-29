@@ -1,3 +1,5 @@
+/* ===== Google Font Import - Poppins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 body{background-image: url("https://www.alloj.com/media/cache/petite_gallery_bloc_paysage/uploads/ecole-juive/groupe-eschel/slider/gallery/cropped/f5032272e77e3cc7e75508fe36bad2a10f9057bd.jpg");}
 body{
   font-family: 'Coda', cursive;
