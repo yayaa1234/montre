@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+ <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
@@ -25,10 +26,6 @@
 
 </head>
 <body>
-<br> <br> <br>
-
-<br> <br> <br>
-
   <div id="horloge">
     <div id="heure" class="rond" style="animation-delay: -7461s;"></div>
     <div id="minute" class="rond" style="animation-delay: -261s;"></div>
@@ -63,46 +60,6 @@
 <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/fr/city/2988507"><span style="color:gray;">Heure actuelle</span><br />Paris, France</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=fr&size=medium&timezone=Europe%2FParis" width="100%" height="115" frameborder="0" seamless></iframe> </div>
 <div id="ecole"> 
 <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/fr/city/2988507"><span style="color:gray;">Heure actuelle</span><br />Paris, France</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=fr&size=medium&timezone=Europe%2FParis" width="100%" height="115" frameborder="0" seamless></iframe> </div>
-  <nav>
-        <div class="nav-bar">
-            <i class='bx bx-menu sidebarOpen' ></i>
-            <span class="logo navLogo"><a href="#">MONTRE</a></span>
-
-            <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="#">MONTRE </a></span>
-                    <i class='bx bx-x siderbarClose'></i>
-                </div>
-
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="darkLight-searchBox">
-                <div class="dark-light">
-                    <i class='bx bx-moon moon'></i>
-                    <i class='bx bx-sun sun'></i>
-                </div>
-
-                <div class="searchBox">
-                   <div class="searchToggle">
-                    <i class='bx bx-x cancel'></i>
-                    <i class='bx bx-search search'></i>
-                   </div>
-
-                    <div class="search-field">
-                        <input type="text" placeholder="Search...">
-                        <i class='bx bx-search'></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
 <br><br>
 <br><br><h1> Ecole Eschel</h1>
 <div style="text-align:center;padding:1em 0;"> <h3><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/fr/city/2988507"><span style="color:gray;">Heure actuelle</span><br />Paris, France</a></h3> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=fr&size=medium&timezone=Europe%2FParis" width="100%" height="115" frameborder="0" seamless></iframe> </div>
@@ -111,87 +68,6 @@
 <img src="https://www.alloj.com/media/cache/petite_gallery_bloc_paysage/uploads/ecole-juive/groupe-eschel/slider/gallery/cropped/c2abb07cdeffb0a26442a34c8ed718e584f1c415.jpg" alt="ecole-juive">
 </div>
 
-<div id="horloge">
-    <div id="heure" class="rond" style="animation-delay: -7461s;"></div>
-    <div id="minute" class="rond" style="animation-delay: -261s;"></div>
-    <div id="seconde" class="rond" style="animation-delay: -21s;"></div>
-    <div id="centre" class="rond"></div>
-<div class="sep" id="h0"></div>
-<div class="sep" id="h1"></div>
-<div class="sep" id="h2"></div>
-<div class="sep" id="h3"></div>
-<div class="sep" id="h4"></div>
-<div class="sep" id="h5"></div>
-<div class="sep" id="h6"></div>
-<div class="sep" id="h7"></div>
-<div class="sep" id="h8"></div>
-<div class="sep" id="h9"></div>
-<div class="sep" id="h10"></div>
-<div class="sep" id="h11"></div>
-</div>
-<script>
-  var tt = new Date();
-  document.getElementById('seconde').style.webkitAnimationDelay = -(tt.getSeconds()) + 's';
-  document.getElementById('minute').style.webkitAnimationDelay = -(tt.getMinutes()*60 + tt.getSeconds()) + 's';
-  document.getElementById('heure').style.OAnimationDelay = -((tt.getHours()%12)*3600 + tt.getMinutes()*60 + tt.getSeconds()) + 's';
-  document.getElementById('seconde').style.OAnimationDelay = -(tt.getSeconds()) + 's';
-  document.getElementById('minute').style.OAnimationDelay = -(tt.getMinutes()*60 + tt.getSeconds()) + 's';
-  document.getElementById('heure').style.webkitAnimationDelay = -((tt.getHours()%12)*3600 + tt.getMinutes()*60 + tt.getSeconds()) + 's';
-  document.getElementById('seconde').style.animationDelay = -(tt.getSeconds()) + 's';
-  document.getElementById('minute').style.animationDelay = -(tt.getMinutes()*60 + tt.getSeconds()) + 's';
-  document.getElementById('heure').style.animationDelay = -((tt.getHours()%12)*3600 + tt.getMinutes()*60 + tt.getSeconds()) + 's';
-</script>
-
- <script>
-
-const body = document.querySelector("body"),
-      nav = document.querySelector("nav"),
-      modeToggle = document.querySelector(".dark-light"),
-      searchToggle = document.querySelector(".searchToggle"),
-      sidebarOpen = document.querySelector(".sidebarOpen"),
-      siderbarClose = document.querySelector(".siderbarClose");
-
-      let getMode = localStorage.getItem("mode");
-          if(getMode && getMode === "dark-mode"){
-            body.classList.add("dark");
-          }
-
-// js code to toggle dark and light mode
-      modeToggle.addEventListener("click" , () =>{
-        modeToggle.classList.toggle("active");
-        body.classList.toggle("dark");
-
-        // js code to keep user selected mode even page refresh or file reopen
-        if(!body.classList.contains("dark")){
-            localStorage.setItem("mode" , "light-mode");
-        }else{
-            localStorage.setItem("mode" , "dark-mode");
-        }
-      });
-
-// js code to toggle search box
-        searchToggle.addEventListener("click" , () =>{
-        searchToggle.classList.toggle("active");
-      });
- 
-      
-//   js code to toggle sidebar
-sidebarOpen.addEventListener("click" , () =>{
-    nav.classList.add("active");
-});
-
-body.addEventListener("click" , e =>{
-    let clickedElm = e.target;
-
-    if(!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")){
-        nav.classList.remove("active");
-    }
-});
-
-</script>
-            
-
-</script>
  <script src="app.js"></script>
 </body>
 </html>
